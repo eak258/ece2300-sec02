@@ -45,7 +45,7 @@ module Top();
     dut_in0 = 0;
     dut_in1 = 0;
     dut_in2 = 0;
-    #10;
+    #10; //advance time by 10 tau
     $display( "%x %x %x > %x", dut_in0, dut_in1, dut_in2, dut_out );
 
     dut_in0 = 0;
